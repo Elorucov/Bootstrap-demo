@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+}
+
+nav.on-carousel {
+	position: absolute;
+  	z-index: 1;
+  	width: 100%;
+}
+
+.navbar-brand {
+	color: #0077FF;
+}
+
+#carouselExampleCaptions .carousel-image {
+	height: 440px;
+	background-repeat: no-repeat;
+  	background-position: 50%;
+  	background-size: cover !important;
+}
+
+#carouselExampleCaptions .carousel-image:after {
+	content: '';
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	width: 100%;
+	height: inherit;
+}
+
+#carouselExampleCaptions .carousel-caption {
+	bottom: 9rem;
+}
+
+.feature {
+	display: flex;  
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#news .card {
+	border: 0px;
+}
+
+#news .card-body {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+p > code {
+	font-size: var(--bs-body-font-size);
+	line-height: var(--bs-body-line-height);
+}
+
+main#singleContent {
+	max-width: 840px;
+}
