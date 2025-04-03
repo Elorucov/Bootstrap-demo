@@ -38,6 +38,15 @@ nav.on-carousel {
     text-align: center;
 }
 
+.feature:hover {
+	background: var(--bs-tertiary-bg);
+}
+
+.showcase a {
+	text-decoration: none;
+	color: var(--bs-primary-text-emphasis);
+}
+
 #news .card {
 	border: 0px;
 }
